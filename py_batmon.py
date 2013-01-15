@@ -1,3 +1,4 @@
+# PYthon script
 try:
         import pygtk
         pygtk.require("2.0")
@@ -14,6 +15,11 @@ except:
 
 class front_end():
 	def __init__(self):
+		
+		# path
+		import os
+		self.path = "/opt/py_batmon"
+		os.chdir(self.path)
 		
 		# Set glade file
 		self.gladefile ="./py_batmon.glade"

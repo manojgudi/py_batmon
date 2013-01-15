@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Py Batmon
+Comment=Simple app for battery status
+Exec=/opt/py_batmon/startup -n
+Icon=/usr/share/pixmaps/py_batmon.svg
+Terminal=true
+Type=Application
+Categories=Application;Accessibility;
+StartupNotify=true
