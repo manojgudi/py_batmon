@@ -1,3 +1,10 @@
 # Battery Monitor
 makeshift battery monitor for aakash until I write it using gtk-c
 the default is somehow not working for aakash
+
+
+Installing:
+$ ./app_install
+
+Add "Application Launchbar" from lxpanel options; find Py Batmon under "Universal Access" tab
+
