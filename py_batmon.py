@@ -44,6 +44,7 @@ class front_end():
 		import subprocess as sp
 		self.p1 = sp.Popen(["cat", "/sys/class/power_supply/battery/capacity"], stdout=sp.PIPE)
 		self.battery_value = self.p1.communicate()[0]
+		self.battery_value = str(self.battery_value)
 		
 		# put value
 		self.label2.set_text(self.battery_value)
